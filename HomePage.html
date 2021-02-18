@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Menu </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <div class="btn">
+      <span class="fas fa-bars"></span>
+    </div>
+<nav class="sidebar">
+      <div class="text">Menu</div>
+<ul>
+<li class="active"><a href="#">Dashboard</a></li>
+<li>
+          <a href="#" class="feat-btn">Features
+            <span class="fas fa-caret-down first"></span>
+          </a>
+          <ul class="feat-show">
+<li><a href="#">Sell Painting</a></li>
+<li><a href="#">Buy Painting</a></li>
+</ul>
+</li>
+<li>
+          <a href="#" class="serv-btn">Categories
+            <span class="fas fa-caret-down second"></span>
+          </a>
+          <ul class="serv-show">
+<li><a href="file:///G:/Users/User/Desktop/Website/Gallery/page5.html">Abstract painting</a></li>
+<li><a href="file:///G:/Users/User/Desktop/Website/Gallery/page9.html">Stencil art</a></li>
+			  <li><a href="file:///G:/Users/User/Desktop/Website/Gallery/page3.html">Mandala art</a></li>
+			  <li><a href="file:///G:/Users/User/Desktop/Website/Gallery/page1.html">Digital art</a></li>
+			  <li><a href="file:///G:/Users/User/Desktop/Website/Gallery/page7.html">Pour Painting</a></li>
+</ul>
+</li>
+<li><a href="file:///G:/Users/User/Desktop/Website/FAQ/accordion-faq-challenge-for-frontend-mentor/src/FAQ.html">FAQ</a></li>
+<li><a href="file:///G:/Users/User/Desktop/Website/AboutUs.html">About Us</a></li>
+<li><a href="file:///G:/Users/User/Desktop/Website/Feedback%20form/feedback%20form/art3.html?name=&email=&mobile=&feedback=#">Feedback</a></li>
+</ul>
+</nav>
+<script>
+    $('.btn').click(function(){
+      $(this).toggleClass("click");
+      $('.sidebar').toggleClass("show");
+    });
+      $('.feat-btn').click(function(){
+        $('nav ul .feat-show').toggleClass("show");
+        $('nav ul .first').toggleClass("rotate");
+      });
+      $('.serv-btn').click(function(){
+        $('nav ul .serv-show').toggleClass("show1");
+        $('nav ul .second').toggleClass("rotate");
+      });
+      $('nav ul li').click(function(){
+        $(this).addClass("active").siblings().removeClass("active");
+      });
+    </script>
+	  <div> 
+      <img src="https://images.pexels.com/photos/69903/pexels-photo-69903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Image of gallery" style="width: 100%;height: 718px;">
+		  <h3 id="first-txt">Artistic Alliance</h3> 
+    </div>
+	  <br>
+	  <br>
+	  <br>
+	  <h2 style="text-align: center;font-family: Advent Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';line-height: 40px"><i>Creating a treasure of art by developing beautiful voyage is what an art gallery is known for. It is an assemblage of various types of arts including abstract art, mandala art, stencil art, digital art and pour painting</i></h2>
+	  <br>
+	  <br>
+	  <h2 id="head1">
+	  Simple steps for your growth
+	  </h2>
+	  <br>
+	  <br>
+	  <div class="row">
+  <div class="column">
+    <img src="https://lh3.googleusercontent.com/uNrgGWP6HNMR5-9DnpvF9L0Ab7UITHtbD5jCp7t1D69W369TG6at42_wswx6VodXP_hDwruFlHl3bDumb-U_CvDvub6BoyiQaULm7g=h176-w176" alt="">
+	  	  <h3>Choose whether to buy or sell an art</h3><br>
+		  <p>
+		 • Easily done by clicking the buy now option<br>
+• If you want to buy a particular art in future<br> just click on add to cart<br>
+		  </p>
+  </div>
+  <div class="column">
+    <img src="https://lh3.googleusercontent.com/pZm00maF5sXRrbPpG8AvVkdKhXlZiGvw2O34IRsNi_8B2WElphurbJP55MyRNLNwSZLGQXK_ouTuSN6cYt526Y8d154_8lmuvsd2=h176-w176" alt="">
+	  	  <h3>Choose a specific subject and draw a series</h3><br>
+		  <p>
+		 • Develop your interest in drawing the everyday<br>
+• Work on your observational skills<br>
+• Appreciate differences in similar objects<br>
+• Develop a specific style<br>
+		  </p>
+  </div>
+  <div class="column">
+    <img src="https://lh3.googleusercontent.com/XKaVIYlfQa8ezYFL47BgJwjywmxZoBAICcUykdejVQhSwtPcRmUknx82Lp8tGzs42FyEhRtSIgrzLt226HN2sa_nr-9OOq01aXa2=h176-w176" alt="">
+	  	  <h3>Choose whether to pay or get money through which form</h3><br>
+		  <p>
+		 • Simply enter the platform where you want your money<br>
+• Enter your details <br>
+• Submit<br>
+		  </p>
+  </div>
+</div>
+	  <br>
+	  <br>
+	  <h2 style="margin: 20px;">Abstract Art</h2>
+	  <div class="align">
+		<img src="https://images.pexels.com/photos/1573434/pexels-photo-1573434.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" width="300">
+		<p style="text-align: justify;margin: 30px;">Abstract art uses visual language of shape, form, color and line to create a composition which may exist with a degree of independence from visual references in the world.[1] Western art had been, from the Renaissance up to the middle of the 19th century, underpinned by the logic of perspective and an attempt to reproduce an illusion of visible reality. By the end of the 19th century many artists felt a need to create a new kind of art which would encompass the fundamental changes taking place in technology, science and philosophy. The sources from which individual artists drew their theoretical arguments were diverse, and reflected the social and intellectual preoccupations in all areas of Western culture at that time.[2]
+
+Abstract art, non-figurative art, non-objective art, and non-representational art, are closely related terms. They are similar, but perhaps not of identical meaning.</p>
+	</div>
+	  <pre style="font-size: 30px"><b>                                                                                                                                                                                                    Mandala Art</b></pre>
+	<div class="align">
+		<p>A mandala (emphasis on first syllable; Sanskrit मण्डल, maṇḍala – literally "circle") is a geometric configuration of symbols. In various spiritual <br>traditions, mandalas may be employed for focusing attention of practitioners and adepts,<br> as a spiritual guidance tool, for establishing a sacred space and as an aid to meditation and trance <br>induction. In the Eastern religions of Hinduism, Buddhism, Jainism and Shintoism it is used as a map <br>representing deities, or specially in the case of Shintoism, paradises, kami or actual shrines.In historical, social and political sense, the term "mandala" is also employed to denote traditional Southeast Asian political formations (such as federation of kingdoms or vassalized states). It was adopted by 20th century Western historians from ancient Indian political discourse as a means of avoiding the term 'state' in the conventional sense. Not only did Southeast Asian polities not conform to Chinese and European views of a territorially defined state with fixed borders and a bureaucratic apparatus, but they diverged considerably in the opposite direction</p>
+		<img src="https://cdn.pixabay.com/photo/2016/04/12/20/21/vintage-1325327__340.png" alt="" width="300">
+	</div>
+	  <h2 style="margin: 20px">Stencil Art</h2>
+	<div class="align">
+		
+		<img src="https://cdn.pixabay.com/photo/2016/02/02/04/07/stencil-1174728__340.jpg" alt="" width="300">
+		<p style="margin: 30px;">Stencilling produces an image or pattern by applying pigment to a surface over an intermediate object with designed gaps in it which create the<br> pattern or image by only allowing the pigment to reach some parts of the surface. The stencil is both the resulting image or pattern<br> and the intermediate object; the context in which stencil is used makes clear <br>which meaning is intended. In practice, the (object) stencil is usually a thin sheet of material, such as paper, plastic, wood or <br>metal, with letters or a design cut from it, used to produce the letters <br>or design on an underlying surface by applying pigment through the cut-out holes in the material.
+
+The key advantage of a stencil is that it can be reused to repeatedly and rapidly produce the same letters or design. Although aerosol or painting stencils <br>can be made for one-time use, typically they are made with the intention of being reused. To be<br> reusable, they must remain intact after a design is produced and the stencil is removed from the work surface. With some designs, this is done<br> by connecting stencil islands (sections of material that are inside cut-out "holes" in the stencil) to other parts of the stencil with bridges<br> (narrow sections of material that are not cut out).</p>
+	</div>
+	  <pre style="font-size: 30px"><b>                                                                                                                                                                                              Digital art</b></pre>
+	<div class="align">
+		<p style="margin: 30px;">Digital art is an artistic work or practice that uses digital technology as part of the creative or presentation process. Since the 1960s,<br> various names have been used to describe the process, including computer art and multimedia art. Digital art is itself placed<br> under the larger umbrella term new media art.
+
+After some initial resistance,[4] the impact of digital technology has transformed <br>activities such as painting, drawing, sculpture and music/sound art, while new forms, such as net art,<br> digital installation art, and virtual reality, have become recognized artistic practices.[5] More generally the <br>term digital artist is used to describe an artist who makes use of digital technologies in the production of art.<br> In an expanded sense, "digital art" is contemporary art that uses the methods of mass production or digital media.[6]</p>
+		<img src="https://cdn.pixabay.com/photo/2018/10/08/14/46/bird-3732867__340.jpg" alt="" width="300">
+	</div>
+	  <h2 style="margin: 20px">Acrylic Painting</h2>
+	  <div class="align">
+		<img src="https://cdn.pixabay.com/photo/2014/05/11/17/30/painting-342116__340.jpg" alt="" width="300">
+		<p>Acrylic paint is a fast-drying paint made of pigment suspended in acrylic polymer emulsion and plasticizers, silicon oils,<br> defoamers, stabilizers, metal soaps. Acrylic paints are water-soluble, but become water-resistant when dry. Depending on how much the paint<br> is diluted with water, or modified with acrylic gels, mediums, or pastes, the finished acrylic <br>painting can resemble a watercolor, a gouache or an oil painting, or have its own unique<br> characteristics not attainable with other media.[3]</p>
+	</div>
+	  <pre style="font-size: 30px"><b>                                                                                                                                                                                                      Pour Painting</b> </pre>
+	  <div class="align">
+		<p>The acrylic paint is mixed with the pouring medium and provided with further additives such as silicone oil. The consistency must be such that it flows well but is not too thin. Then this color mixture is poured onto the painting base, tilted or emptied.
+
+This depends on the pouring technique and your own taste. The result is an individual work of art that can hardly be reproduced again. There are unbelievably diverse possibilities, starting from the color combinations, different acrylic paints from different manufacturers, as well as various additives and of course the techniques.Workplace preparation is the first step. Protect the work surface and floor with a plastic sheet or tarpaulin. Dried paint splashes and stains are difficult to remove, depending on the surface, and the acrylic flow technique often leaves traces in the form of paint off the canvas.
+
+Afterward, have all your equipment ready so that you always have everything at hand. Put on gloves so that you don’t have your fingers full of paint.</p>
+		<img src="https://cdn.pixabay.com/photo/2017/03/14/18/06/red-2143953__340.jpg" alt="" width="300">
+	</div>
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-aa189788-5b5c-4245-b81c-6ee4e80a85eb"></div>
+	 <div class="image">
+<h1 id="slide">GLANCE</h1>
+	  <div class="maindiv">
+	  
+	  </div>
+	  </div>
+
+  </body>
+</html>
+
